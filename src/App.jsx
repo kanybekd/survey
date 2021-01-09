@@ -24,7 +24,7 @@ export default class App extends Component {
     
   }  
   render() {
-    console.log("current age",this.state.currentPage)
+    console.log("current page",this.state.currentPage)
     console.log("length",this.state.data.length)
     let disablePrev = !this.state.currentPage ? "true" : ""
     let disableNext = this.state.currentPage < this.state.data.length-1 ? "" : "true"
