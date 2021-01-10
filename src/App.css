@@ -54,3 +54,14 @@ input[type="text"]{
     display: flex;
     margin: 0 auto;
 }
+#finalPage{
+    margin:10px;
+    /* margin-top: 20px; */
+    padding:30px;
+    /* border:1px solid red; */
+    background: cornsilk;
+    color:green;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
